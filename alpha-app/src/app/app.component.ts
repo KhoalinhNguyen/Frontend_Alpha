@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { User } from './user.model';
+import { UserService } from './services/user.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'alpha-app';
+
+
 }
